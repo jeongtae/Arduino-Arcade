@@ -42,9 +42,9 @@
         <Canvas Margin="5">
             <!-- Joystick KeyBoxControls -->
             <local:KeyBoxControl Canvas.Left="60" Canvas.Top="25" Width="50" KeyCode="{Binding UpKeyCode, Mode=TwoWay}" />
-            <local:KeyBoxControl Canvas.Left="5" Canvas.Top="80" Width="50" KeyCode="{Binding DownKeyCode, Mode=TwoWay}" />
-            <local:KeyBoxControl Canvas.Left="115" Canvas.Top="80" Width="50" KeyCode="{Binding LeftKeyCode, Mode=TwoWay}" />
-            <local:KeyBoxControl Canvas.Left="60" Canvas.Top="145" Width="50" KeyCode="{Binding RightKeyCode, Mode=TwoWay}" />
+            <local:KeyBoxControl Canvas.Left="5" Canvas.Top="80" Width="50" KeyCode="{Binding LeftKeyCode, Mode=TwoWay}" />
+            <local:KeyBoxControl Canvas.Left="115" Canvas.Top="80" Width="50" KeyCode="{Binding RightKeyCode, Mode=TwoWay}" />
+            <local:KeyBoxControl Canvas.Left="60" Canvas.Top="145" Width="50" KeyCode="{Binding DownKeyCode, Mode=TwoWay}" />
             <!-- Joystick Illust -->
             <Viewbox Canvas.Left="60" Canvas.Top="50" Width="50" Stretch="Fill">
                 <Canvas Width="100" Height="180">
